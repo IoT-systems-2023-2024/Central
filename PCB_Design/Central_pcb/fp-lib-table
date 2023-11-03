@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "BG25171")(type "KiCad")(uri "${KIPRJMOD}/project_libaries/project-footprints")(options "")(descr ""))
+  (lib (name "Central")(type "KiCad")(uri "${KIPRJMOD}/project_libaries/project-footprints")(options "")(descr ""))
 )
