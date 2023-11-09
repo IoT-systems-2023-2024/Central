@@ -1097,6 +1097,10 @@
     (stroke (width 0) (type default))
     (uuid 9eb705fa-822f-4bdb-b3c2-a04cd406dadf)
   )
+  (wire (pts (xy 138.43 130.81) (xy 133.35 130.81))
+    (stroke (width 0) (type default))
+    (uuid a0c85276-6a93-4f95-918c-b1007f5c981b)
+  )
   (wire (pts (xy 201.93 92.71) (xy 201.93 102.87))
     (stroke (width 0) (type default))
     (uuid a68a2439-6e82-43e0-88c5-5267d237f7e4)
@@ -1224,7 +1228,7 @@
   (symbol (lib_id "Device:C") (at 115.57 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09aa98ee-2ae9-49a4-a8d5-d1a7b9f1c741)
-    (property "Reference" "C7" (at 119.38 61.595 0)
+    (property "Reference" "C?" (at 119.38 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100p" (at 119.38 64.135 0)
@@ -1241,15 +1245,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C3") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1258,7 +1262,7 @@
   (symbol (lib_id "Device:R") (at 198.12 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12af40fb-bd8f-4ad5-bf56-cb462191ebb6)
-    (property "Reference" "R3" (at 198.12 81.28 90)
+    (property "Reference" "R?" (at 198.12 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 198.12 85.09 90)
@@ -1275,15 +1279,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R6") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1292,7 +1296,7 @@
   (symbol (lib_id "power:GND") (at 165.1 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19097ba0-60d6-46f7-b714-8f8447072c1f)
-    (property "Reference" "#PWR05" (at 165.1 26.67 0)
+    (property "Reference" "#PWR?" (at 165.1 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 29.21 0)
@@ -1308,48 +1312,48 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 133.35 130.81 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 138.43 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 247d5313-cd2d-4385-aec6-05d55515685d)
-    (property "Reference" "#PWR06" (at 139.7 130.81 0)
+    (property "Reference" "#PWR?" (at 144.78 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 137.16 131.445 90)
+    (property "Value" "GND" (at 142.24 131.445 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 133.35 130.81 0)
+    (property "Footprint" "" (at 138.43 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 133.35 130.81 0)
+    (property "Datasheet" "" (at 138.43 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 94db6cbd-5253-43d2-a62d-95fd22ef7f3d))
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1358,7 +1362,7 @@
   (symbol (lib_id "Device:R") (at 204.47 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b8e6fdb-bf42-4b24-b751-e0c2ef1d7098)
-    (property "Reference" "R4" (at 207.01 85.725 0)
+    (property "Reference" "R?" (at 207.01 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 207.01 88.265 0)
@@ -1375,15 +1379,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1392,7 +1396,7 @@
   (symbol (lib_id "Device:C") (at 157.48 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f3d63c5-8e5a-4977-9af8-9002de562c91)
-    (property "Reference" "C5" (at 161.29 98.425 0)
+    (property "Reference" "C?" (at 161.29 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33p" (at 161.29 100.965 0)
@@ -1409,15 +1413,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C5") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1426,7 +1430,7 @@
   (symbol (lib_id "Device:C") (at 184.15 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38614f32-8d18-4305-a47e-fab10549cdc7)
-    (property "Reference" "C2" (at 187.96 98.425 0)
+    (property "Reference" "C?" (at 187.96 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33p" (at 187.96 100.965 0)
@@ -1443,15 +1447,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C8") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1460,7 +1464,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 97.79 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ab5a933-20e0-40b8-9fd7-11a07c579d55)
-    (property "Reference" "C9" (at 101.6 60.706 0)
+    (property "Reference" "C?" (at 101.6 60.706 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100µ" (at 101.6 63.246 0)
@@ -1477,15 +1481,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C1") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1494,7 +1498,7 @@
   (symbol (lib_id "power:GND") (at 106.68 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49baa92b-ed3c-40b3-b121-120853997704)
-    (property "Reference" "#PWR012" (at 106.68 52.07 0)
+    (property "Reference" "#PWR?" (at 106.68 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 54.61 0)
@@ -1510,15 +1514,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1527,7 +1531,7 @@
   (symbol (lib_id "Device:R") (at 76.2 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4af4c532-7c86-4e62-b645-758699e3c071)
-    (property "Reference" "R6" (at 76.2 107.95 90)
+    (property "Reference" "R?" (at 76.2 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 76.2 110.49 90)
@@ -1544,15 +1548,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1561,7 +1565,7 @@
   (symbol (lib_id "power:GND") (at 175.26 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c2775e6-ae25-4397-b79e-05060cac6c61)
-    (property "Reference" "#PWR03" (at 175.26 109.22 0)
+    (property "Reference" "#PWR?" (at 175.26 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 107.95 0)
@@ -1577,15 +1581,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1594,7 +1598,7 @@
   (symbol (lib_id "SMA_CONNECTOR:SMA_CONNECTOR") (at 80.01 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e32e364-a2d5-41d5-8f13-698f1377af80)
-    (property "Reference" "J1" (at 82.55 74.4855 90)
+    (property "Reference" "J?" (at 82.55 74.4855 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMA_CONNECTOR" (at 82.55 77.0255 90)
@@ -1650,15 +1654,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "J1") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1667,7 +1671,7 @@
   (symbol (lib_id "SIM8051:SIM8051-6-0-14-01-X-REVD") (at 234.95 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 544065f4-ca99-4068-b673-611aa8b80aef)
-    (property "Reference" "J1" (at 237.49 77.47 0)
+    (property "Reference" "J5" (at 237.49 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SIM8051-6-0-14-01-X-REVD" (at 237.49 80.01 0)
@@ -1715,7 +1719,7 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "J1") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1724,7 +1728,7 @@
   (symbol (lib_id "Device:R") (at 76.2 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68981251-423b-4fa0-8e95-6e1d63e771ca)
-    (property "Reference" "R7" (at 76.2 113.03 90)
+    (property "Reference" "R?" (at 76.2 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 76.2 115.57 90)
@@ -1741,15 +1745,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R1") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1758,7 +1762,7 @@
   (symbol (lib_id "Device:R") (at 82.55 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 712180dd-7112-41f3-8e29-5f9c83867e0c)
-    (property "Reference" "R5" (at 82.55 105.41 90)
+    (property "Reference" "R?" (at 82.55 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 82.55 107.95 90)
@@ -1775,15 +1779,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -1792,7 +1796,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 63.5 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b39fc70-6644-42d9-8d8a-973fbd74790b)
-    (property "Reference" "J5" (at 63.5 114.3 0)
+    (property "Reference" "J?" (at 63.5 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 63.5 119.38 0)
@@ -1809,15 +1813,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "J5") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "J5") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
     )
@@ -1826,7 +1830,7 @@
   (symbol (lib_id "Device:C") (at 166.37 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7cae2a43-2d4b-4a80-8cd8-11f0fad576cd)
-    (property "Reference" "C4" (at 170.18 98.425 0)
+    (property "Reference" "C?" (at 170.18 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33p" (at 170.18 100.965 0)
@@ -1843,15 +1847,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C6") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1860,7 +1864,7 @@
   (symbol (lib_id "power:GND") (at 115.57 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7cf60405-c24b-424a-bb10-53076b46dcf8)
-    (property "Reference" "#PWR011" (at 115.57 52.07 0)
+    (property "Reference" "#PWR?" (at 115.57 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 54.61 0)
@@ -1876,15 +1880,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1893,7 +1897,7 @@
   (symbol (lib_id "Device:C") (at 175.26 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87d9a3dd-fdf3-4bb2-b958-eb62a053abef)
-    (property "Reference" "C3" (at 179.07 98.425 0)
+    (property "Reference" "C?" (at 179.07 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33p" (at 179.07 100.965 0)
@@ -1910,15 +1914,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C7") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -1927,7 +1931,7 @@
   (symbol (lib_id "ESDS304:ESDS304DBVR") (at 172.72 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 883c8994-e23e-475e-8b6a-11a1e1927022)
-    (property "Reference" "U6" (at 184.15 55.245 90)
+    (property "Reference" "U5" (at 184.15 55.245 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "ESDS304DBVR" (at 184.15 57.785 90)
@@ -1971,7 +1975,7 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1980,7 +1984,7 @@
   (symbol (lib_id "power:GND") (at 184.15 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90fa38ff-ed8c-431b-b864-ec91bbe20fbc)
-    (property "Reference" "#PWR04" (at 184.15 109.22 0)
+    (property "Reference" "#PWR?" (at 184.15 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 107.95 0)
@@ -1996,15 +2000,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2013,7 +2017,7 @@
   (symbol (lib_id "power:GND") (at 157.48 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 933c0c99-6423-43a2-a29a-ec62e4c79b1e)
-    (property "Reference" "#PWR01" (at 157.48 109.22 0)
+    (property "Reference" "#PWR?" (at 157.48 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 107.95 0)
@@ -2029,15 +2033,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2046,7 +2050,7 @@
   (symbol (lib_id "power:GND") (at 166.37 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a83874aa-dabd-48b8-a706-eb5ce4f22c8d)
-    (property "Reference" "#PWR02" (at 166.37 109.22 0)
+    (property "Reference" "#PWR?" (at 166.37 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 107.95 0)
@@ -2062,15 +2066,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2079,7 +2083,7 @@
   (symbol (lib_id "Device:C") (at 217.17 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa37f3b9-116d-472c-a7c4-967334735271)
-    (property "Reference" "C1" (at 220.98 95.885 0)
+    (property "Reference" "C?" (at 220.98 95.885 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 220.98 98.425 0)
@@ -2096,15 +2100,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C9") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2113,7 +2117,7 @@
   (symbol (lib_id "power:+3.3V") (at 133.35 74.93 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab84b031-a638-47ff-b517-8f5de9f6d1f9)
-    (property "Reference" "#PWR08" (at 129.54 74.93 0)
+    (property "Reference" "#PWR031" (at 129.54 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 137.16 75.565 90)
@@ -2129,7 +2133,7 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2138,7 +2142,7 @@
   (symbol (lib_id "power:GND") (at 97.79 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad3b6f7f-067b-400c-b263-df6e98473bf9)
-    (property "Reference" "#PWR013" (at 97.79 52.07 0)
+    (property "Reference" "#PWR?" (at 97.79 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 54.61 0)
@@ -2154,15 +2158,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2171,7 +2175,7 @@
   (symbol (lib_id "Device:R") (at 187.96 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b36cd10a-dd50-4830-ae1a-b633b08f90c4)
-    (property "Reference" "R1" (at 187.96 86.36 90)
+    (property "Reference" "R?" (at 187.96 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 187.96 90.17 90)
@@ -2188,15 +2192,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2205,7 +2209,7 @@
   (symbol (lib_id "Device:R") (at 82.55 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b79c7f8b-e759-465f-8d2a-51c4b175e588)
-    (property "Reference" "R8" (at 82.55 115.57 90)
+    (property "Reference" "R?" (at 82.55 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 82.55 118.11 90)
@@ -2222,15 +2226,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2239,7 +2243,7 @@
   (symbol (lib_id "Device:C") (at 124.46 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bef2fbe5-5d62-46fa-a3dd-5e9be740afc4)
-    (property "Reference" "C8" (at 128.27 61.595 0)
+    (property "Reference" "C?" (at 128.27 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22p" (at 128.27 64.135 0)
@@ -2256,15 +2260,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C4") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2273,7 +2277,7 @@
   (symbol (lib_id "power:GND") (at 124.46 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf763e35-93c7-4153-b415-94e77fd79e72)
-    (property "Reference" "#PWR010" (at 124.46 52.07 0)
+    (property "Reference" "#PWR?" (at 124.46 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 54.61 0)
@@ -2289,15 +2293,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2306,7 +2310,7 @@
   (symbol (lib_id "power:GND") (at 87.63 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c40e0ebc-2d1a-4c81-ba61-a34388ce51e8)
-    (property "Reference" "#PWR07" (at 81.28 95.25 0)
+    (property "Reference" "#PWR?" (at 81.28 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 95.25 90)
@@ -2322,15 +2326,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2339,7 +2343,7 @@
   (symbol (lib_id "BC660:BC660K-GL") (at 110.49 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c548323f-e44f-4f58-9bf0-9b3383ad03f6)
-    (property "Reference" "U2" (at 110.49 68.58 0)
+    (property "Reference" "U4" (at 110.49 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BC660K-GL" (at 110.49 71.12 0)
@@ -2451,7 +2455,7 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2460,7 +2464,7 @@
   (symbol (lib_id "Device:R") (at 137.16 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3a66746-7c65-4390-a566-6e119c9888a3)
-    (property "Reference" "R9" (at 137.16 100.33 90)
+    (property "Reference" "R?" (at 137.16 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 137.16 102.87 90)
@@ -2477,15 +2481,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R5") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2494,7 +2498,7 @@
   (symbol (lib_id "Device:R") (at 193.04 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef0d9841-7c00-49e9-b96c-30d460d8cd64)
-    (property "Reference" "R2" (at 193.04 83.82 90)
+    (property "Reference" "R?" (at 193.04 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 193.04 87.63 90)
@@ -2511,15 +2515,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
     )
@@ -2528,7 +2532,7 @@
   (symbol (lib_id "Device:C") (at 106.68 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9262ed5-be63-4ea4-9766-4ba568f20547)
-    (property "Reference" "C6" (at 110.49 61.595 0)
+    (property "Reference" "C?" (at 110.49 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 110.49 64.135 0)
@@ -2545,15 +2549,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "C2") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
     )
@@ -2562,7 +2566,7 @@
   (symbol (lib_id "power:GND") (at 77.47 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdbe9e57-f1cd-4e53-a34b-1bae9ad0b259)
-    (property "Reference" "#PWR09" (at 77.47 85.09 0)
+    (property "Reference" "#PWR?" (at 77.47 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 80.645 0)
@@ -2578,15 +2582,15 @@
     (instances
       (project "Central_pcb"
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/4d244925-fc91-48ed-8daa-e4f0d6afeb7f/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "bc660_breakoutboard"
         (path "/d627ecd8-d3ea-468a-86f8-a115d49eee0e"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
