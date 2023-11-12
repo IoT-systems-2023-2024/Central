@@ -1,4 +1,4 @@
-21588102782813915
+21589802560913843
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6292,6 +6292,13 @@ GCT_SIM8051-6-0-14-01-X-REVD
 0
 10
 10
+Central
+HRS_U.FL-R-SMT_01_
+
+
+0
+3
+3
 Central
 LPRS_SMA_CONNECTOR
 

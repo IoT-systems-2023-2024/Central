@@ -10,4 +10,5 @@
   (lib (name "CRISTAL")(type "KiCad")(uri "${KIPRJMOD}/project_libaries/project-symbols/CC5V-T1A-32.768KHZ-12.5PF-20PPM-TA-QC.kicad_sym")(options "")(descr ""))
   (lib (name "10K NTC")(type "KiCad")(uri "${KIPRJMOD}/project_libaries/project-symbols/NTCG103JF103FT1.kicad_sym")(options "")(descr ""))
   (lib (name "32Mhz crystal")(type "KiCad")(uri "${KIPRJMOD}/project_libaries/project-symbols/CX2016DB32000D0WZRC1.kicad_sym")(options "")(descr ""))
+  (lib (name "UFL")(type "KiCad")(uri "${KIPRJMOD}/project_libaries/project-symbols/U.FL-R-SMT_01_.kicad_sym")(options "")(descr ""))
 )
