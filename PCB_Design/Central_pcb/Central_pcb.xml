@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\gheys\OneDrive - KU Leuven\Documents\GitHub\Central\PCB_Design\Central_pcb\Central_pcb.kicad_sch</source>
-    <date>10/11/2023 13:57:11</date>
+    <date>12/11/2023 10:49:39</date>
     <tool>Eeschema (7.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -84,7 +84,7 @@
     </comp>
     <comp ref="C3">
       <value>0.8p</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Central_pcb.kicad_sch"/>
@@ -159,6 +159,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b6c9f7d4-dfaf-42d8-8184-31cc53769add</tstamps>
     </comp>
+    <comp ref="C23">
+      <value>1.2pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Central_pcb.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3cdbc7c-dec7-4269-8f59-079b7c69b978</tstamps>
+    </comp>
     <comp ref="J1">
       <value>Conn_ARM_JTAG_SWD_10</value>
       <footprint>Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical</footprint>
@@ -171,9 +182,48 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a0847a33-04ae-41b5-a6a9-a4f4014846b1</tstamps>
     </comp>
+    <comp ref="J4">
+      <value>U.FL-R-SMT_01_</value>
+      <footprint>Central:HRS_U.FL-R-SMT_01_</footprint>
+      <fields>
+        <field name="AVAILABILITY">Good</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle</field>
+        <field name="Description">
+U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder. RF Connectors / Coaxial Connectors
+</field>
+        <field name="MF">Hirose</field>
+        <field name="MP">U.FL-R-SMT(01)</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">0.84 USD</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49572&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT(01)&amp;search_term=None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="UFL" part="U.FL-R-SMT_01_" description=""/>
+      <property name="MF" value="Hirose"/>
+      <property name="DESCRIPTION" value="U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="0.84 USD"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=eda"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=snap"/>
+      <property name="MP" value="U.FL-R-SMT(01)"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49572&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT(01)&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="Description" value="&#xA;U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder. RF Connectors / Coaxial Connectors&#xA;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Central_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df030aca-3f04-4331-9670-6733c2168a36</tstamps>
+    </comp>
     <comp ref="L1">
       <value>3.9n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Central_pcb.kicad_sch"/>
@@ -355,19 +405,19 @@ THM Holder for Dual 18650 Batteries
       <sheetpath names="/Power/" tstamps="/3414a10a-973a-4a85-bec5-f896220b0f20/"/>
       <tstamps>271b5a66-feda-4e87-a1cf-1583c0d6d812</tstamps>
     </comp>
-    <comp ref="J2">
-      <value>Barrel_Jack</value>
-      <footprint>Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal</footprint>
-      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+    <comp ref="J6">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power_sch.kicad_sch"/>
-      <property name="ki_description" value="DC Barrel Jack"/>
-      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Power/" tstamps="/3414a10a-973a-4a85-bec5-f896220b0f20/"/>
-      <tstamps>4a8c4a8d-c6e2-4147-a537-aac2b8273d60</tstamps>
+      <tstamps>968e563b-a0ba-4ba2-b67c-54eb41a5d45f</tstamps>
     </comp>
     <comp ref="R1">
-      <value>600</value>
+      <value>3k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Power"/>
@@ -582,6 +632,45 @@ NTC Thermistor 10k 0402 (1005 Metric)
       <sheetpath names="/BC660/" tstamps="/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8/"/>
       <tstamps>aa37f3b9-116d-472c-a7c4-967334735271</tstamps>
     </comp>
+    <comp ref="J2">
+      <value>U.FL-R-SMT_01_</value>
+      <footprint>Central:HRS_U.FL-R-SMT_01_</footprint>
+      <fields>
+        <field name="AVAILABILITY">Good</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle</field>
+        <field name="Description">
+U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder. RF Connectors / Coaxial Connectors
+</field>
+        <field name="MF">Hirose</field>
+        <field name="MP">U.FL-R-SMT(01)</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">0.84 USD</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49572&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT(01)&amp;search_term=None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="UFL" part="U.FL-R-SMT_01_" description=""/>
+      <property name="MF" value="Hirose"/>
+      <property name="DESCRIPTION" value="U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="0.84 USD"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=eda"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=snap"/>
+      <property name="MP" value="U.FL-R-SMT(01)"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49572&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT(01)&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="Description" value="&#xA;U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder. RF Connectors / Coaxial Connectors&#xA;"/>
+      <property name="Sheetname" value="BC660"/>
+      <property name="Sheetfile" value="BC660.kicad_sch"/>
+      <sheetpath names="/BC660/" tstamps="/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8/"/>
+      <tstamps>cec7c100-fa31-4bcc-94ad-3a36010216aa</tstamps>
+    </comp>
     <comp ref="J3">
       <value>Conn_01x02_Pin</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
@@ -592,43 +681,6 @@ NTC Thermistor 10k 0402 (1005 Metric)
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/BC660/" tstamps="/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8/"/>
       <tstamps>7b39fc70-6644-42d9-8d8a-973fbd74790b</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>SMA_CONNECTOR</value>
-      <footprint>Central:LPRS_SMA_CONNECTOR</footprint>
-      <fields>
-        <field name="Availability">In Stock</field>
-        <field name="Check_prices">https://www.snapeda.com/parts/SMA%20CONNECTOR/LPRS/view-part/?ref=eda</field>
-        <field name="Description">
-RF Coaxial Straight SMA Connector
-</field>
-        <field name="MANUFACTURER">LPRS</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">8.3 mm</field>
-        <field name="MF">LPRS</field>
-        <field name="MP">SMA CONNECTOR</field>
-        <field name="PARTREV">1.3</field>
-        <field name="Package">None</field>
-        <field name="Price">None</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SMA%20CONNECTOR/LPRS/view-part/?ref=snap</field>
-      </fields>
-      <libsource lib="SMA_CONNECTOR" part="SMA_CONNECTOR" description=""/>
-      <property name="MF" value="LPRS"/>
-      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.3 mm"/>
-      <property name="Package" value="None"/>
-      <property name="Price" value="None"/>
-      <property name="Check_prices" value="https://www.snapeda.com/parts/SMA%20CONNECTOR/LPRS/view-part/?ref=eda"/>
-      <property name="STANDARD" value="Manufacturer Recommendations"/>
-      <property name="PARTREV" value="1.3"/>
-      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SMA%20CONNECTOR/LPRS/view-part/?ref=snap"/>
-      <property name="MP" value="SMA CONNECTOR"/>
-      <property name="Description" value="&#xA;RF Coaxial Straight SMA Connector&#xA;"/>
-      <property name="Availability" value="In Stock"/>
-      <property name="MANUFACTURER" value="LPRS"/>
-      <property name="Sheetname" value="BC660"/>
-      <property name="Sheetfile" value="BC660.kicad_sch"/>
-      <sheetpath names="/BC660/" tstamps="/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8/"/>
-      <tstamps>4e32e364-a2d5-41d5-8f13-698f1377af80</tstamps>
     </comp>
     <comp ref="J5">
       <value>SIM8051-6-0-14-01-X-REVD</value>
@@ -1017,22 +1069,6 @@ Multi-band LTE Cat NB2 module; 17.7mm 15.8mm 2mm; 1.8g; SMT form factor; LCC pac
         <pin num="11" name="11" type="unspecified"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Barrel_Jack">
-      <description>DC Barrel Jack</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>BarrelJack*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Barrel_Jack</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="Conn_01x02_Pin">
       <description>Generic connector, single row, 01x02, script generated</description>
       <docs>~</docs>
@@ -1294,32 +1330,31 @@ IC RF TxRx + MCU Bluetooth, General ISM &gt; 1GHz ANT, Bluetooth v5.0 2.4GHz 48-
         <pin num="C7" name="I/O" type="bidirectional"/>
       </pins>
     </libpart>
-    <libpart lib="SMA_CONNECTOR" part="SMA_CONNECTOR">
+    <libpart lib="UFL" part="U.FL-R-SMT_01_">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">SMA_CONNECTOR</field>
-        <field name="Footprint">SMA_CONNECTOR:LPRS_SMA_CONNECTOR</field>
-        <field name="MF">LPRS</field>
-        <field name="MAXIMUM_PACKAGE_HEIGHT">8.3 mm</field>
+        <field name="Value">U.FL-R-SMT_01_</field>
+        <field name="Footprint">U.FL-R-SMT_01_:HRS_U.FL-R-SMT_01_</field>
+        <field name="MF">Hirose</field>
+        <field name="DESCRIPTION">U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">0.84 USD</field>
         <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=eda</field>
         <field name="Price">None</field>
-        <field name="Check_prices">https://www.snapeda.com/parts/SMA%20CONNECTOR/LPRS/view-part/?ref=eda</field>
-        <field name="STANDARD">Manufacturer Recommendations</field>
-        <field name="PARTREV">1.3</field>
-        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SMA%20CONNECTOR/LPRS/view-part/?ref=snap</field>
-        <field name="MP">SMA CONNECTOR</field>
-        <field name="Description">
-RF Coaxial Straight SMA Connector
-</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/U.FL-R-SMT(01)/Hirose+Electric+Co+Ltd/view-part/?ref=snap</field>
+        <field name="MP">U.FL-R-SMT(01)</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49572&amp;manufacturer=Hirose&amp;part_name=U.FL-R-SMT(01)&amp;search_term=None</field>
         <field name="Availability">In Stock</field>
-        <field name="MANUFACTURER">LPRS</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="Description">
+U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder. RF Connectors / Coaxial Connectors
+</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="G1" name="" type="passive"/>
-        <pin num="G2" name="" type="passive"/>
-        <pin num="G3" name="" type="passive"/>
-        <pin num="G4" name="" type="passive"/>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SIG" type="passive"/>
       </pins>
     </libpart>
   </libparts>
@@ -1357,8 +1392,8 @@ RF Coaxial Straight SMA Connector
     <library logical="SIM8051">
       <uri>C:\Users\gheys\OneDrive - KU Leuven\Documents\GitHub\Central\PCB_Design\Central_pcb/project_libaries/project-symbols/SIM8051-6-0-14-01-X-REVD.kicad_sym</uri>
     </library>
-    <library logical="SMA_CONNECTOR">
-      <uri>C:/Users/gheys/Downloads/SMA_CONNECTOR/SMA_CONNECTOR.kicad_sym</uri>
+    <library logical="UFL">
+      <uri>C:\Users\gheys\OneDrive - KU Leuven\Documents\GitHub\Central\PCB_Design\Central_pcb/project_libaries/project-symbols/U.FL-R-SMT_01_.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1383,14 +1418,14 @@ RF Coaxial Straight SMA Connector
       <node ref="U4" pin="43" pinfunction="VBAT" pintype="power_in"/>
     </net>
     <net code="2" name="BOOT_BC660">
-      <node ref="U1" pin="10" pinfunction="P0.08" pintype="bidirectional"/>
+      <node ref="U1" pin="39" pinfunction="P0.27" pintype="bidirectional"/>
       <node ref="U4" pin="7" pinfunction="~{BOOT}" pintype="input"/>
     </net>
     <net code="3" name="CE_BQ25171">
       <node ref="U2" pin="3" pinfunction="/CE" pintype="unspecified"/>
     </net>
     <net code="4" name="GND">
-      <node ref="BT1" pin="N1" pintype="passive"/>
+      <node ref="BT1" pin="N2" pintype="passive"/>
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -1405,6 +1440,7 @@ RF Coaxial Straight SMA Connector
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -1415,17 +1451,18 @@ RF Coaxial Straight SMA Connector
       <node ref="J1" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="J1" pin="5" pinfunction="GND" pintype="passive"/>
       <node ref="J1" pin="9" pinfunction="GNDDetect" pintype="passive"/>
-      <node ref="J2" pin="2" pintype="passive"/>
-      <node ref="J4" pin="G1" pintype="passive"/>
-      <node ref="J4" pin="G2" pintype="passive"/>
-      <node ref="J4" pin="G3" pintype="passive"/>
-      <node ref="J4" pin="G4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="RT1" pin="1" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="VSS1" pintype="power_in"/>
       <node ref="U1" pin="45" pinfunction="VSS2" pintype="power_in"/>
+      <node ref="U1" pin="49" pinfunction="EXP" pintype="power_in"/>
       <node ref="U2" pin="5" pinfunction="GND" pintype="unspecified"/>
       <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
@@ -1442,9 +1479,9 @@ RF Coaxial Straight SMA Connector
       <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="Y1" pin="2" pintype="power_in"/>
     </net>
-    <net code="5" name="Net-(BT1-PadN2)">
-      <node ref="BT1" pin="N2" pintype="passive"/>
-      <node ref="BT1" pin="P1" pintype="passive"/>
+    <net code="5" name="Net-(BT1-PadN1)">
+      <node ref="BT1" pin="N1" pintype="passive"/>
+      <node ref="BT1" pin="P2" pintype="passive"/>
     </net>
     <net code="6" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
@@ -1470,33 +1507,42 @@ RF Coaxial Straight SMA Connector
       <node ref="J1" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
       <node ref="U1" pin="26" pinfunction="SWDIO" pintype="bidirectional"/>
     </net>
-    <net code="12" name="Net-(J3-Pin_1)">
+    <net code="12" name="Net-(J2-SIG)">
+      <node ref="J2" pin="3" pinfunction="SIG" pintype="passive"/>
+      <node ref="U4" pin="35" pinfunction="ANT_RF" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(J3-Pin_1)">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(J3-Pin_2)">
+    <net code="14" name="Net-(J3-Pin_2)">
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(J5-CLK)">
+    <net code="15" name="Net-(J4-SIG)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="SIG" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J5-CLK)">
       <node ref="J5" pin="C3" pinfunction="CLK" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(J5-GND)">
+    <net code="17" name="Net-(J5-GND)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="J5" pin="C5" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="10" pinfunction="USIM_GND" pintype="power_in"/>
     </net>
-    <net code="16" name="Net-(J5-I{slash}O)">
+    <net code="18" name="Net-(J5-I{slash}O)">
       <node ref="J5" pin="C7" pinfunction="I/O" pintype="bidirectional"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(J5-RST)">
+    <net code="19" name="Net-(J5-RST)">
       <node ref="J5" pin="C2" pinfunction="RST" pintype="input"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(J5-VCC)">
+    <net code="20" name="Net-(J5-VCC)">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="J5" pin="C1" pinfunction="VCC" pintype="power_in"/>
@@ -1504,115 +1550,108 @@ RF Coaxial Straight SMA Connector
       <node ref="U4" pin="14" pinfunction="USIM_VDD" pintype="power_in"/>
       <node ref="U5" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
     </net>
-    <net code="19" name="Net-(U1-ANT)">
+    <net code="21" name="Net-(J6-Pin_1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="unspecified"/>
+    </net>
+    <net code="22" name="Net-(U1-ANT)">
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="30" pinfunction="ANT" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(U1-DEC1)">
+    <net code="23" name="Net-(U1-DEC1)">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="DEC1" pintype="power_in"/>
     </net>
-    <net code="21" name="Net-(U1-DEC3)">
+    <net code="24" name="Net-(U1-DEC3)">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="DEC3" pintype="power_in"/>
     </net>
-    <net code="22" name="Net-(U1-DEC4)">
+    <net code="25" name="Net-(U1-DEC4)">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U1" pin="46" pinfunction="DEC4" pintype="power_in"/>
     </net>
-    <net code="23" name="Net-(U1-XC1)">
+    <net code="26" name="Net-(U1-XC1)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="U1" pin="34" pinfunction="XC1" pintype="input"/>
       <node ref="Y1" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(U2-CHM_TMP)">
+    <net code="27" name="Net-(U2-CHM_TMP)">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="CHM_TMP" pintype="unspecified"/>
     </net>
-    <net code="25" name="Net-(U2-IN)">
-      <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="J2" pin="1" pintype="passive"/>
-      <node ref="U2" pin="1" pinfunction="IN" pintype="unspecified"/>
-    </net>
-    <net code="26" name="Net-(U2-ISET)">
+    <net code="28" name="Net-(U2-ISET)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="ISET" pintype="unspecified"/>
     </net>
-    <net code="27" name="Net-(U2-OUT)">
-      <node ref="BT1" pin="P2" pintype="passive"/>
+    <net code="29" name="Net-(U2-OUT)">
+      <node ref="BT1" pin="P1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="OUT" pintype="unspecified"/>
       <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
-    <net code="28" name="Net-(U2-TS)">
+    <net code="30" name="Net-(U2-TS)">
       <node ref="RT1" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="TS" pintype="unspecified"/>
     </net>
-    <net code="29" name="Net-(U2-VSET)">
+    <net code="31" name="Net-(U2-VSET)">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="VSET" pintype="unspecified"/>
     </net>
-    <net code="30" name="Net-(U4-ANT_RF)">
-      <node ref="J4" pin="1" pintype="passive"/>
-      <node ref="U4" pin="35" pinfunction="ANT_RF" pintype="bidirectional"/>
-    </net>
-    <net code="31" name="Net-(U4-DBG_RXD)">
+    <net code="32" name="Net-(U4-DBG_RXD)">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U4" pin="38" pinfunction="DBG_RXD" pintype="input"/>
     </net>
-    <net code="32" name="Net-(U4-DBG_TXD)">
+    <net code="33" name="Net-(U4-DBG_TXD)">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U4" pin="39" pinfunction="DBG_TXD" pintype="output"/>
     </net>
-    <net code="33" name="Net-(U4-MAIN_RXD)">
+    <net code="34" name="Net-(U4-MAIN_RXD)">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U4" pin="18" pinfunction="MAIN_RXD" pintype="input"/>
     </net>
-    <net code="34" name="Net-(U4-MAIN_TXD)">
+    <net code="35" name="Net-(U4-MAIN_TXD)">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U4" pin="17" pinfunction="MAIN_TXD" pintype="output"/>
     </net>
-    <net code="35" name="Net-(U4-RI)">
+    <net code="36" name="Net-(U4-RI)">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="U4" pin="20" pinfunction="RI" pintype="output"/>
     </net>
-    <net code="36" name="Net-(U4-USIM_CLK)">
+    <net code="37" name="Net-(U4-USIM_CLK)">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U4" pin="13" pinfunction="USIM_CLK" pintype="output"/>
       <node ref="U5" pin="3" pinfunction="I/O2" pintype="bidirectional"/>
     </net>
-    <net code="37" name="Net-(U4-USIM_DATA)">
+    <net code="38" name="Net-(U4-USIM_DATA)">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="U4" pin="11" pinfunction="USIM_DATA" pintype="bidirectional"/>
       <node ref="U5" pin="5" pinfunction="I/O4" pintype="bidirectional"/>
     </net>
-    <net code="38" name="Net-(U4-USIM_RST)">
+    <net code="39" name="Net-(U4-USIM_RST)">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U4" pin="12" pinfunction="USIM_RST" pintype="output"/>
       <node ref="U5" pin="4" pinfunction="I/O3" pintype="bidirectional"/>
     </net>
-    <net code="39" name="Nreset">
+    <net code="40" name="Nreset">
       <node ref="J1" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
       <node ref="U1" pin="24" pinfunction="P0.21" pintype="bidirectional"/>
     </net>
-    <net code="40" name="PSM_EINT_BC660">
-      <node ref="U1" pin="17" pinfunction="P0.14" pintype="bidirectional"/>
+    <net code="41" name="PSM_EINT_BC660">
+      <node ref="U1" pin="10" pinfunction="P0.08" pintype="bidirectional"/>
       <node ref="U4" pin="19" pinfunction="PSM_EINT" pintype="input"/>
     </net>
-    <net code="41" name="RESET_BC660">
+    <net code="42" name="RESET_BC660">
       <node ref="U1" pin="9" pinfunction="P0.07" pintype="bidirectional"/>
       <node ref="U4" pin="15" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="42" name="RF">
-      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
     <net code="43" name="RI_BC660">
       <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="U1" pin="16" pinfunction="P0.13" pintype="bidirectional"/>
+      <node ref="U1" pin="11" pinfunction="P0.09" pintype="bidirectional"/>
     </net>
     <net code="44" name="RXD_BC660">
       <node ref="R8" pin="1" pintype="passive"/>
@@ -1636,183 +1675,180 @@ RF Coaxial Straight SMA Connector
       <node ref="J5" pin="C6" pinfunction="VPP" pintype="power_in+no_connect"/>
     </net>
     <net code="50" name="unconnected-(U1-DCC-Pad47)">
-      <node ref="U1" pin="47" pinfunction="DCC" pintype="power_in"/>
+      <node ref="U1" pin="47" pinfunction="DCC" pintype="power_in+no_connect"/>
     </net>
     <net code="51" name="unconnected-(U1-DEC2-Pad32)">
-      <node ref="U1" pin="32" pinfunction="DEC2" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="DEC2" pintype="power_in+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(U1-EXP-Pad49)">
-      <node ref="U1" pin="49" pinfunction="EXP" pintype="power_in"/>
+    <net code="52" name="unconnected-(U1-P0.00-Pad2)">
+      <node ref="U1" pin="2" pinfunction="P0.00" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U1-P0.00-Pad2)">
-      <node ref="U1" pin="2" pinfunction="P0.00" pintype="bidirectional"/>
+    <net code="53" name="unconnected-(U1-P0.01-Pad3)">
+      <node ref="U1" pin="3" pinfunction="P0.01" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U1-P0.01-Pad3)">
-      <node ref="U1" pin="3" pinfunction="P0.01" pintype="bidirectional"/>
+    <net code="54" name="unconnected-(U1-P0.02-Pad4)">
+      <node ref="U1" pin="4" pinfunction="P0.02" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U1-P0.02-Pad4)">
-      <node ref="U1" pin="4" pinfunction="P0.02" pintype="bidirectional"/>
+    <net code="55" name="unconnected-(U1-P0.03-Pad5)">
+      <node ref="U1" pin="5" pinfunction="P0.03" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U1-P0.03-Pad5)">
-      <node ref="U1" pin="5" pinfunction="P0.03" pintype="bidirectional"/>
+    <net code="56" name="unconnected-(U1-P0.04-Pad6)">
+      <node ref="U1" pin="6" pinfunction="P0.04" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(U1-P0.04-Pad6)">
-      <node ref="U1" pin="6" pinfunction="P0.04" pintype="bidirectional"/>
+    <net code="57" name="unconnected-(U1-P0.05-Pad7)">
+      <node ref="U1" pin="7" pinfunction="P0.05" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U1-P0.05-Pad7)">
-      <node ref="U1" pin="7" pinfunction="P0.05" pintype="bidirectional"/>
+    <net code="58" name="unconnected-(U1-P0.06-Pad8)">
+      <node ref="U1" pin="8" pinfunction="P0.06" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U1-P0.06-Pad8)">
-      <node ref="U1" pin="8" pinfunction="P0.06" pintype="bidirectional"/>
+    <net code="59" name="unconnected-(U1-P0.10-Pad12)">
+      <node ref="U1" pin="12" pinfunction="P0.10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(U1-P0.09-Pad11)">
-      <node ref="U1" pin="11" pinfunction="P0.09" pintype="bidirectional"/>
+    <net code="60" name="unconnected-(U1-P0.13-Pad16)">
+      <node ref="U1" pin="16" pinfunction="P0.13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(U1-P0.10-Pad12)">
-      <node ref="U1" pin="12" pinfunction="P0.10" pintype="bidirectional"/>
+    <net code="61" name="unconnected-(U1-P0.14-Pad17)">
+      <node ref="U1" pin="17" pinfunction="P0.14" pintype="bidirectional+no_connect"/>
     </net>
     <net code="62" name="unconnected-(U1-P0.15-Pad18)">
-      <node ref="U1" pin="18" pinfunction="P0.15" pintype="bidirectional"/>
+      <node ref="U1" pin="18" pinfunction="P0.15" pintype="bidirectional+no_connect"/>
     </net>
     <net code="63" name="unconnected-(U1-P0.16-Pad19)">
-      <node ref="U1" pin="19" pinfunction="P0.16" pintype="bidirectional"/>
+      <node ref="U1" pin="19" pinfunction="P0.16" pintype="bidirectional+no_connect"/>
     </net>
     <net code="64" name="unconnected-(U1-P0.17-Pad20)">
-      <node ref="U1" pin="20" pinfunction="P0.17" pintype="bidirectional"/>
+      <node ref="U1" pin="20" pinfunction="P0.17" pintype="bidirectional+no_connect"/>
     </net>
     <net code="65" name="unconnected-(U1-P0.19-Pad22)">
-      <node ref="U1" pin="22" pinfunction="P0.19" pintype="bidirectional"/>
+      <node ref="U1" pin="22" pinfunction="P0.19" pintype="bidirectional+no_connect"/>
     </net>
     <net code="66" name="unconnected-(U1-P0.20-Pad23)">
-      <node ref="U1" pin="23" pinfunction="P0.20" pintype="bidirectional"/>
+      <node ref="U1" pin="23" pinfunction="P0.20" pintype="bidirectional+no_connect"/>
     </net>
     <net code="67" name="unconnected-(U1-P0.22-Pad27)">
-      <node ref="U1" pin="27" pinfunction="P0.22" pintype="bidirectional"/>
+      <node ref="U1" pin="27" pinfunction="P0.22" pintype="bidirectional+no_connect"/>
     </net>
     <net code="68" name="unconnected-(U1-P0.23-Pad28)">
-      <node ref="U1" pin="28" pinfunction="P0.23" pintype="bidirectional"/>
+      <node ref="U1" pin="28" pinfunction="P0.23" pintype="bidirectional+no_connect"/>
     </net>
     <net code="69" name="unconnected-(U1-P0.24-Pad29)">
-      <node ref="U1" pin="29" pinfunction="P0.24" pintype="bidirectional"/>
+      <node ref="U1" pin="29" pinfunction="P0.24" pintype="bidirectional+no_connect"/>
     </net>
     <net code="70" name="unconnected-(U1-P0.25-Pad37)">
-      <node ref="U1" pin="37" pinfunction="P0.25" pintype="bidirectional"/>
+      <node ref="U1" pin="37" pinfunction="P0.25" pintype="bidirectional+no_connect"/>
     </net>
     <net code="71" name="unconnected-(U1-P0.26-Pad38)">
-      <node ref="U1" pin="38" pinfunction="P0.26" pintype="bidirectional"/>
+      <node ref="U1" pin="38" pinfunction="P0.26" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U1-P0.27-Pad39)">
-      <node ref="U1" pin="39" pinfunction="P0.27" pintype="bidirectional"/>
+    <net code="72" name="unconnected-(U1-P0.28-Pad40)">
+      <node ref="U1" pin="40" pinfunction="P0.28" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U1-P0.28-Pad40)">
-      <node ref="U1" pin="40" pinfunction="P0.28" pintype="bidirectional"/>
+    <net code="73" name="unconnected-(U1-P0.29-Pad41)">
+      <node ref="U1" pin="41" pinfunction="P0.29" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U1-P0.29-Pad41)">
-      <node ref="U1" pin="41" pinfunction="P0.29" pintype="bidirectional"/>
+    <net code="74" name="unconnected-(U1-P0.30-Pad42)">
+      <node ref="U1" pin="42" pinfunction="P0.30" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U1-P0.30-Pad42)">
-      <node ref="U1" pin="42" pinfunction="P0.30" pintype="bidirectional"/>
+    <net code="75" name="unconnected-(U1-P0.31-Pad43)">
+      <node ref="U1" pin="43" pinfunction="P0.31" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U1-P0.31-Pad43)">
-      <node ref="U1" pin="43" pinfunction="P0.31" pintype="bidirectional"/>
-    </net>
-    <net code="77" name="unconnected-(U2-Pad11)">
+    <net code="76" name="unconnected-(U2-Pad11)">
       <node ref="U2" pin="11" pinfunction="11" pintype="unspecified+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U4-ADC0-Pad9)">
+    <net code="77" name="unconnected-(U4-ADC0-Pad9)">
       <node ref="U4" pin="9" pinfunction="ADC0" pintype="input+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U4-GPIO1-Pad3)">
+    <net code="78" name="unconnected-(U4-GPIO1-Pad3)">
       <node ref="U4" pin="3" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U4-GPIO2-Pad4)">
+    <net code="79" name="unconnected-(U4-GPIO2-Pad4)">
       <node ref="U4" pin="4" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U4-GPIO3-Pad5)">
+    <net code="80" name="unconnected-(U4-GPIO3-Pad5)">
       <node ref="U4" pin="5" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U4-GPIO4-Pad6)">
+    <net code="81" name="unconnected-(U4-GPIO4-Pad6)">
       <node ref="U4" pin="6" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U4-GRFC1-Pad54)">
+    <net code="82" name="unconnected-(U4-GRFC1-Pad54)">
       <node ref="U4" pin="54" pinfunction="GRFC1" pintype="output+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U4-GRFC2-Pad55)">
+    <net code="83" name="unconnected-(U4-GRFC2-Pad55)">
       <node ref="U4" pin="55" pinfunction="GRFC2" pintype="output+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U4-NETLIGHT-Pad16)">
+    <net code="84" name="unconnected-(U4-NETLIGHT-Pad16)">
       <node ref="U4" pin="16" pinfunction="NETLIGHT" pintype="output"/>
     </net>
-    <net code="86" name="unconnected-(U4-RESERVED_1-Pad2)">
+    <net code="85" name="unconnected-(U4-RESERVED_1-Pad2)">
       <node ref="U4" pin="2" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U4-RESERVED_1-Pad8)">
+    <net code="86" name="unconnected-(U4-RESERVED_1-Pad8)">
       <node ref="U4" pin="8" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U4-RESERVED_1-Pad21)">
+    <net code="87" name="unconnected-(U4-RESERVED_1-Pad21)">
       <node ref="U4" pin="21" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U4-RESERVED_1-Pad22)">
+    <net code="88" name="unconnected-(U4-RESERVED_1-Pad22)">
       <node ref="U4" pin="22" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U4-RESERVED_1-Pad23)">
+    <net code="89" name="unconnected-(U4-RESERVED_1-Pad23)">
       <node ref="U4" pin="23" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U4-RESERVED_1-Pad25)">
+    <net code="90" name="unconnected-(U4-RESERVED_1-Pad25)">
       <node ref="U4" pin="25" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="92" name="unconnected-(U4-RESERVED_1-Pad26)">
+    <net code="91" name="unconnected-(U4-RESERVED_1-Pad26)">
       <node ref="U4" pin="26" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="93" name="unconnected-(U4-RESERVED_1-Pad28)">
+    <net code="92" name="unconnected-(U4-RESERVED_1-Pad28)">
       <node ref="U4" pin="28" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="94" name="unconnected-(U4-RESERVED_1-Pad29)">
+    <net code="93" name="unconnected-(U4-RESERVED_1-Pad29)">
       <node ref="U4" pin="29" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="95" name="unconnected-(U4-RESERVED_1-Pad30)">
+    <net code="94" name="unconnected-(U4-RESERVED_1-Pad30)">
       <node ref="U4" pin="30" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="96" name="unconnected-(U4-RESERVED_1-Pad31)">
+    <net code="95" name="unconnected-(U4-RESERVED_1-Pad31)">
       <node ref="U4" pin="31" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="97" name="unconnected-(U4-RESERVED_1-Pad32)">
+    <net code="96" name="unconnected-(U4-RESERVED_1-Pad32)">
       <node ref="U4" pin="32" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="98" name="unconnected-(U4-RESERVED_1-Pad33)">
+    <net code="97" name="unconnected-(U4-RESERVED_1-Pad33)">
       <node ref="U4" pin="33" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="99" name="unconnected-(U4-RESERVED_1-Pad44)">
+    <net code="98" name="unconnected-(U4-RESERVED_1-Pad44)">
       <node ref="U4" pin="44" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="100" name="unconnected-(U4-RESERVED_1-Pad45)">
+    <net code="99" name="unconnected-(U4-RESERVED_1-Pad45)">
       <node ref="U4" pin="45" pinfunction="RESERVED_1" pintype="no_connect"/>
     </net>
-    <net code="101" name="unconnected-(U4-RESERVED_2-Pad46)">
+    <net code="100" name="unconnected-(U4-RESERVED_2-Pad46)">
       <node ref="U4" pin="46" pinfunction="RESERVED_2" pintype="no_connect"/>
     </net>
-    <net code="102" name="unconnected-(U4-RESERVED_2-Pad47)">
+    <net code="101" name="unconnected-(U4-RESERVED_2-Pad47)">
       <node ref="U4" pin="47" pinfunction="RESERVED_2" pintype="no_connect"/>
     </net>
-    <net code="103" name="unconnected-(U4-RESERVED_2-Pad48)">
+    <net code="102" name="unconnected-(U4-RESERVED_2-Pad48)">
       <node ref="U4" pin="48" pinfunction="RESERVED_2" pintype="no_connect"/>
     </net>
-    <net code="104" name="unconnected-(U4-RESERVED_2-Pad49)">
+    <net code="103" name="unconnected-(U4-RESERVED_2-Pad49)">
       <node ref="U4" pin="49" pinfunction="RESERVED_2" pintype="no_connect"/>
     </net>
-    <net code="105" name="unconnected-(U4-RESERVED_2-Pad50)">
+    <net code="104" name="unconnected-(U4-RESERVED_2-Pad50)">
       <node ref="U4" pin="50" pinfunction="RESERVED_2" pintype="no_connect"/>
     </net>
-    <net code="106" name="unconnected-(U4-RESERVED_2-Pad51)">
+    <net code="105" name="unconnected-(U4-RESERVED_2-Pad51)">
       <node ref="U4" pin="51" pinfunction="RESERVED_2" pintype="no_connect"/>
     </net>
-    <net code="107" name="unconnected-(U4-RESERVED_2-Pad53)">
+    <net code="106" name="unconnected-(U4-RESERVED_2-Pad53)">
       <node ref="U4" pin="53" pinfunction="RESERVED_2" pintype="no_connect"/>
     </net>
-    <net code="108" name="unconnected-(U4-VDD_EXT-Pad24)">
+    <net code="107" name="unconnected-(U4-VDD_EXT-Pad24)">
       <node ref="U4" pin="24" pinfunction="VDD_EXT" pintype="power_in+no_connect"/>
     </net>
-    <net code="109" name="xc2">
+    <net code="108" name="xc2">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="U1" pin="35" pinfunction="XC2" pintype="output"/>
       <node ref="Y1" pin="3" pintype="passive"/>
