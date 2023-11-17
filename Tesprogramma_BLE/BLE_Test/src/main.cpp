@@ -11,12 +11,12 @@ void setup() {
   BLE.begin(); 
   
   // start scanning for peripherals
-  // BLE.scanForUuid(""); 
+  BLE.scanForUuid("550e8400-e29b-41d4-a716-446655440000"); 
 
 
   /*
-  BLEService ledService(" any 128-bit UUID "); //
-  moet overeenkomen met peripheral
+  BLEService testService(" any 128-bit UUID "); //
+  defined in peripheral -> 128-bit UUID moet ingevuld worden hierboven 
   */
 
 }
@@ -35,7 +35,7 @@ void loop() {
     Serial.print(peripheral.advertisedServiceUuid());
     Serial.println();
 
-    // bescherming tegen ontvangen andere truck als werken met Uuid
+    // dubbel-check correct peripheral
      if (peripheral.localName() != "") {
       return;
     }
@@ -77,12 +77,15 @@ void doeIets(BLEDevice peripheral){
   }
 
 
-  BLECharacteristic testCharacteristic = peripheral.characteristic();
+  BLECharacteristic testCharacteristic = peripheral.characteristic("");
+  // in central (moet overeenkomen met peripheral definition)
 
-  /*
-  BLEByteCharacteristic naam("", BLERead | BLEWrite);
-  bepaald door peripheral
-  */
+
+  // BLEByteCharacteristic switchCharacteristic("19B10001-E8F2-537E-4F6C-D104768A1214", BLERead | BLEWrite);
+  // BLEByteCharacteristic naam("", BLERead | BLEWrite);
+  // vb van characteristic defined in peripheral 
+
+ 
   if (!testCharacteristic) {
     Serial.println("Peripheral does not have LED characteristic!");
     peripheral.disconnect();
