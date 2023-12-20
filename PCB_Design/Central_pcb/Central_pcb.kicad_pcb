@@ -492,6 +492,11 @@
         )
       )
     )
+    (model ":KICAD7_3RD_PARTY:U.FL-R-SMT_01_.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Central:BAT_1049" (layer "F.Cu")
@@ -660,6 +665,11 @@
           (xy 118.162732 110.856936)
         )
       )
+    )
+    (model ":KICAD7_3RD_PARTY:U.FL-R-SMT_01_.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -5072,6 +5082,11 @@
       (net 2 "+3.3V") (pinfunction "VDD3") (pintype "power_in") (tstamp a7cf648e-201c-46e0-a68b-f2789db81d4b))
     (pad "49" smd roundrect (at 0 0 180) (size 4.6 4.6) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.23)
       (net 3 "GND") (pinfunction "EXP") (pintype "power_in") (solder_mask_margin 0.102) (tstamp e910d102-32c3-438c-a0f8-9234e6771389))
+    (model ":KICAD7_3DMODEL_DIR:Package_DFN_QFN.3dshapes/QFN-48-1EP_6x6mm_P0.4mm_EP4.66x4.66mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
@@ -5359,7 +5374,7 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/ESDS304DBVR/Texas+Instruments/view-part/?ref=snap")
     (path "/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8/883c8994-e23e-475e-8b6a-11a1e1927022")
     (attr smd)
-    (fp_text reference "U5" (at -0.06 -2.866 -180) (layer "B.SilkS")
+    (fp_text reference "U5" (at -0.06 -2.866) (layer "B.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
       (tstamp f1d42570-0a85-4f69-880f-4138536035c8)
     )
@@ -5403,6 +5418,11 @@
       (net 14 "Net-(U4-USIM_RST)") (pinfunction "I/O3") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp a43a8567-699e-4b0f-a364-63ff30535629))
     (pad "5" smd roundrect (at 1.255 0.95 270) (size 1.21 0.59) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15)
       (net 15 "Net-(U4-USIM_DATA)") (pinfunction "I/O4") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp bb0f9d4d-e96a-40fd-a722-226e57376091))
+    (model ":KICAD7_3RD_PARTY:ESDS304DBVR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "B.Cu")
@@ -6222,7 +6242,7 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/BC660K-GL/Quectel/view-part/?ref=snap")
     (path "/a01f4f1b-67d6-4452-bfd1-ae36b9ad65e8/c548323f-e44f-4f58-9bf0-9b3383ad03f6")
     (attr smd)
-    (fp_text reference "U4" (at 10.414 -9.216 -180) (layer "B.SilkS")
+    (fp_text reference "U4" (at 10.414 -9.216) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9cc3e622-003d-43d7-b535-25fcdcd8d992)
     )
@@ -12272,6 +12292,11 @@
       (net 3 "GND") (pinfunction "GND") (pintype "power_in") (solder_mask_margin 0.102) (tstamp 1f7e4517-fd31-4cee-8491-fd2d108d1595))
     (pad "58" smd rect (at -1.8 4.5 270) (size 1 1) (layers "B.Cu" "B.Mask")
       (net 3 "GND") (pinfunction "GND") (pintype "power_in") (solder_mask_margin 0.102) (tstamp a937b1cb-0a9b-48f8-a998-3e349a300713))
+    (model ":KICAD7_3RD_PARTY:BC660K-GL.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
